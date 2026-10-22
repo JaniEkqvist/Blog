@@ -1,8 +1,3 @@
-// Security regression tests.
-// Each test states a security property of the app and fails if that property is broken.
-// They were added after a defect-testing exercise showed the original 10 tests missed
-// (or only accidentally caught) several serious vulnerabilities. Every test here passes
-// on the current clean code and fails when its matching defect is introduced.
 
 const request = require('supertest');
 const bcrypt = require('bcrypt');

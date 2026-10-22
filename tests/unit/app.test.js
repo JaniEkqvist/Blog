@@ -1,6 +1,6 @@
 const request = require('supertest');
 
-// Replace the SQLite database with stub functions so the tests never touch blog.db
+
 jest.mock('../../database', () => ({
     get: jest.fn(),
     all: jest.fn(),
